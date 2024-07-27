@@ -79,6 +79,12 @@ function appStart() {
     }
   };
 
+  //키보드를 클릭했을 때 입력 되도록
+  const hanbleKeyclick = () => {
+    const key = event.key();
+    const keyCode = event;
+  };
+
   const startTimer = () => {
     const 시작_시간 = new Date();
 
